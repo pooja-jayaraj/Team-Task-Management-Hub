@@ -11,8 +11,8 @@ A small full-stack task management application built with React + TypeScript on 
 ## Features
 
 - RESTful Task API with consistent response envelope
-- Resilient backend error handling for validation and unknown routes
-- Modular React dashboard with reusable components
+- Backend error handling for validation and unknown routes
+- React dashboard with reusable components
 - Client and server validation via zod
 - Protected delete endpoint requiring `x-task-admin-token`
 
