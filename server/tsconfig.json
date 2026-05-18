@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "target": "ES2020",
+    "module": "NodeNext",
+    "moduleResolution": "NodeNext",
+    "allowImportingTsExtensions": true,
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "skipLibCheck": true,
+    "outDir": "dist",
+    "rootDir": ".",
+    "strict": true,
+    "noEmit": true
+  },
+  "include": ["**/*.ts", "src/routes/index.ts", "src/routes/taskRoutes.ts", "src/middlewares/error.ts", "src/utils/response.ts"],
+  "exclude": ["node_modules", "dist"]
+}
